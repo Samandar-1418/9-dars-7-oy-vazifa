@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+#root,
+body {
+  height: 100%;
+}
+.Layout-logo {
+  align-items: center;
+  box-shadow: 0 0 1pz #fff;
+  color: #bc8e5b;
+  display: flex;
+height: 64px;
+width: 100%;
+gap: 10px;
+}
+.Layout-logo img {
+  width: 40px;
+  background: #000;
+}
+.Layout--text{
+  color:#fff;
+  font-size: 20px;
+}
